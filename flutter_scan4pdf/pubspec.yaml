@@ -1,0 +1,48 @@
+name: scan4pdf
+description: Cross-platform document scanner with PDF export functionality
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  cupertino_icons: ^1.0.6
+  
+  # Camera & Image
+  camera: ^0.10.5+5
+  image_picker: ^1.0.4
+  image: ^4.1.3
+  
+  # PDF
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  
+  # Storage
+  path_provider: ^2.1.1
+  image_gallery_saver: ^2.0.3
+  
+  # Permissions
+  permission_handler: ^11.0.1
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Utils
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/
+
